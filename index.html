@@ -8,13 +8,26 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>JULIET</h1>
-    <!-- block tag -->
-    <p class="st">Strong Text</p>
-    <p id="para">Paragraph</p>
-
-    <!-- inline tag -->
-    <strong>Strong Text</strong>
-    <b>Strong Text</b>
+    <div class="container">
+      <form>
+        <h1>Sign Up</h1>
+        <input id="fname" type="text" placeholder="First Name" />
+        <input id="lname" type="text" placeholder="Last Name" />
+        <input id="phone" type="number" placeholder="Phone Number" />
+        <input id="email" type="email" placeholder="juliet@example.com" />
+        <input id="password" type="password" placeholder="Password" />
+        <button onclick="submitForm()">Sign Up</button>
+      </form>
+    </div>
+    <script type="text/javascript">
+      const fname = document.getElementById("fname");
+      const lname = document.getElementById("lname");
+      function submitForm() {
+        alert(`
+          First Name: ${fname.value} 
+          Last Name: ${lname.value}
+        `);
+      }
+    </script>
   </body>
 </html>
