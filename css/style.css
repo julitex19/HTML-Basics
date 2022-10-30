@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .st {
+    font-size: 36px;
+  }
+
+  #para {
+    color: yellow;
+  }
