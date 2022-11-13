@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+img{width: 70px;
+
+}
+ul {
+    display: flex;
+    column-gap: 10px;
+    list-style-type: none;
+}
+ul li{
+    font-size: 14px;
+    color: rgb(210, 21, 21);
+    cursor: pointer;
+}
