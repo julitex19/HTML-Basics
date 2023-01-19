@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    background-color: blue;
+    padding: 30px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+/* input:nth-child(2) {
+    margin-bottom: 0;
+} */
